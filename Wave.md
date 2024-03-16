@@ -35,7 +35,7 @@ Decoding them & concatenating them in order, then downloading the result zip fil
 ![Screenshot (45)](https://github.com/SultanCYB/CyberNights-5/assets/107263975/c4b3673b-7f5d-4db5-be37-26fdd3599db3)
 
 
-which indicates the AES (Adavance Encryption Standard) encryption. Unfortunately, This encryption standard is currently not supported by unzip binary. However, 7zip package can be used to extract such files.
+which indicates the AES (Adavance Encryption Standard) encryption. Unfortunately, This encryption standard is currently not supported by unzip binary. However, `7zip package` can be used to extract such files.
 but when we try to extract it, we get a password prompt : 
 
 ![Screenshot (46)](https://github.com/SultanCYB/CyberNights-5/assets/107263975/5bde24a7-ec5f-4259-9ddc-f917f2c1a1ba)
