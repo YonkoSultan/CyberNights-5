@@ -2,7 +2,8 @@ After extracting the zip file, we can obviously see a `pcap` file, which stores 
 
 During previewing the packets we notice that there is a few interesting `HTTP` packets.
 
-By writting `http` in the display filter, we get 61 http packets that contains requests to `images, and flagyard & kali-linux sites`.
+By writting `http` in the display filter,
+we get 61 http packets that contains requests to `images, and flagyard & kali-linux sites`.
 
 ![Screenshot (36)](https://github.com/SultanCYB/CyberNights-5/assets/107263975/0c893f5e-7652-41ae-93c6-24425ab45e04)
 
