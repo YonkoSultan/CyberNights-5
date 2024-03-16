@@ -1,4 +1,4 @@
-After extracting the zipfile, we can obviously see a `pcap` file, which stores captured network packets. So we will use wireshark.
+After extracting the zip file, we can obviously see a `pcap` file, which stores captured network packets. So we will use wireshark.
 
 During previewing the packets we notice that there is a few interesting `HTTP` packets.
 
