@@ -66,7 +66,7 @@ Now lets firstly test for `Blind SQL injection - Error based`. You can use this 
 And I got this result :
 <br>
 
-![Screenshot (70) - Copy](https://github.com/YonkoSultan/CyberNights-5/assets/107263975/2ce36328-c422-4496-9a3d-c375c2929ef7)
+![Screenshot (70) - Copy](https://github.com/YonkoSultan/CyberNights-5/assets/107263975/2ba54365-c448-45e1-84d5-22ea92b70442)
 
 Great, now we know that there's a table named `users` let's get the `username`, `password` and `id` using this payload : 
     
