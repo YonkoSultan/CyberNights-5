@@ -56,6 +56,8 @@ Cool isn't it? But unfortunately nothing interesting here, except the `Logged in
 <br>
 so it might be `Blind SQL injection`.
 
+## The final chapter
+
 Now lets firstly test for `Blind SQL injection - Error based`. You can use this payload to guess the table name :
 
     'or (select 1 from table_name limit 0,1)=1 /*
@@ -83,7 +85,8 @@ id : 1, username : Jackie_Lando, password : %_%MYS3cr3tPasSword%_%
 
 We find no `flag` here, even if we tried to search for `flag` in the `users` table; we will get no result.
 
-## The final chapter
+---
+
 In CTF challenges, the `flag` is usually in a table named `flag` precisely in a column named `flag`.
 <br>
 Nevertheless, when testing the very first payload for checking for an existing table 
