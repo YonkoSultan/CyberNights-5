@@ -32,7 +32,7 @@ Ok, so it's a base64, after decoding the first request's encoded text in CyberCh
 So it's a `zip` file header, assuming that other requests are the data of the zip file.
 Decoding them & concatenating them in order, then downloading the result zip file and then try to extract it we get this error:
 
-Note : you need to decode each piece of Base64 separately
+Note : you need to decode each packet of Base64 separately
 
 
 ![Screenshot (45)](https://github.com/SultanCYB/CyberNights-5/assets/107263975/c4b3673b-7f5d-4db5-be37-26fdd3599db3)
